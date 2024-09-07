@@ -1,13 +1,11 @@
-# Definir colores
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[0;33m'
-BLUE='\033[0;34m'
-NC='\033[0m' # Sin color
-
-echo -e "${BLUE}====================================${NC}"
-echo -e "${YELLOW}Información del sistema${NC}"
-echo -e "${BLUE}====================================${NC}"
+#Definir los colores
+GREEN='\033[38;2;0;255;0m'
+ROJO='\033[38;5;160m'
+BLUE='\033[38;2;0;0;255m'
+NC='\033[0m' # Sin color (reset)
+echo -e "${ROJO}====================================${NC}"
+echo -e "${ROJO}Información del sistema${NC}"
+echo -e "${ROJO}====================================${NC}"
 
 echo -e "${GREEN}Sistema Operativo:${NC}"
 uname -a
