@@ -10,7 +10,7 @@ Esta herramienta ha sido adaptada del canal de YouTube de [@ElPinguinoDeMario](h
 
 ### `escaneo_puertos.sh`
 
-Utiliza `netcat` junto con una serie de ajustes para realizar el escaneo de múltiples puertos simultáneamente. Este método agiliza el proceso y lo hace menos detectable.
+Utiliza `netcat` junto con una serie de ajustes para realizar el escaneo de múltiples puertos simultáneamente. Este método agiliza el proceso y lo hace menos detectable (pero no invisible).
 
 ## Uso
 
