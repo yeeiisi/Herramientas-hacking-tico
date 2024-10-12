@@ -25,6 +25,10 @@ Esta herramienta combina el uso de `nmap` y `gobuster` para realizar un análisi
 - Realiza un escaneo rápido de todos los puertos utilizando `nmap`.
 - Ejecuta un fuzzing de directorios en el puerto 80, en caso de estar abierto, con la herramienta `gobuster`.
 
+### `nmap_scan.sh`
+
+El script te permitirá seleccionar el tipo de escaneo de nmap que deseas realizar mediante un menú interactivo y guardará los resultados en un directorio de salida.
+```Uso: /nmap_scan.sh <dirección_ip> (puede que sean necesarios permisos de root o ser usuario sudo)```
 
 ## Uso
 ```bash ./escaneo_red.sh <RED_LOCAL>``` (se le deben dar permisos de ejecución a los archivos ```chmod +x archivo.sh```)
