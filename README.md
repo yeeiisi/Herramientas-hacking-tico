@@ -17,7 +17,7 @@ Utiliza `netcat` junto con una serie de ajustes para realizar el escaneo de múl
 Este script realiza un escaneo de una red local, revisando si los puertos 22 (SSH) y 80 (HTTP) están abiertos en cada IP del rango proporcionado. Usa `netcat` para hacer comprobaciones rápidas de los puertos, mostrando si están abiertos.
 
 ## Uso
-```bash ./escaneo_red.sh <RED_LOCAL>```
+```bash ./escaneo_red.sh <RED_LOCAL>``` (se le deben dar permisos de ejecución a los archivos)
 Asegúrate de tener los permisos necesarios antes de usar estas herramientas en cualquier sistema. El uso indebido de estas herramientas puede ser ilegal y contra las políticas de la plataforma en la que operes.
 
 ## Contribuciones
