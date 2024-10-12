@@ -16,6 +16,9 @@ Utiliza `netcat` junto con una serie de ajustes para realizar el escaneo de múl
 
 Este script realiza un escaneo de una red local, revisando si los puertos 22 (SSH) y 80 (HTTP) están abiertos en cada IP del rango proporcionado. Usa `netcat` para hacer comprobaciones rápidas de los puertos, mostrando si están abiertos.
 
+## Uso
+```bash ./escaneo_red.sh <RED_LOCAL>``` (se le deben dar permisos de ejecución a los archivos ```chmod +x archivo.sh```)
+
 ### `nmap_gobuster.sh`
 
 Esta herramienta combina el uso de `nmap` y `gobuster` para realizar un análisis exhaustivo de una máquina objetivo. Primero, realiza un escaneo sigiloso de todos los puertos usando `nmap` y, en caso de que el puerto 80 esté abierto, utiliza `gobuster` para realizar fuzzing de directorios en la URL detectada.
@@ -30,8 +33,6 @@ Esta herramienta combina el uso de `nmap` y `gobuster` para realizar un análisi
 El script te permitirá seleccionar el tipo de escaneo de nmap que deseas realizar mediante un menú interactivo y guardará los resultados en un directorio de salida.
 ```Uso: /nmap_scan.sh <dirección_ip> (puede que sean necesarios permisos de root o ser usuario sudo)```
 
-## Uso
-```bash ./escaneo_red.sh <RED_LOCAL>``` (se le deben dar permisos de ejecución a los archivos ```chmod +x archivo.sh```)
 Asegúrate de tener los permisos necesarios antes de usar estas herramientas en cualquier sistema. El uso indebido de estas herramientas puede ser ilegal y contra las políticas de la plataforma en la que operes.
 
 ## Contribuciones
